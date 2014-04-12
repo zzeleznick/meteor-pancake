@@ -1,0 +1,35 @@
+<template name="order">
+    <div class="content" style="margin-left: 20px;">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+        <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-6" style="padding: 0px 50px 0px 50px">
+            <p class="lead">Choose a location</p>
+            <input type="text" autofocus="autofocus" class="form-control" id="placeSearch" placeholder="Enter a location" autocomplete="off">
+            </div>
+            </div>
+         
+<br/>
+
+     <div class="row">
+     <div id="map-canvas"></div>
+     <hr />
+     <a href="#" class="btn" id="addMarker">Add Marker</a>
+     &nbsp;
+     <input type="text" id="cityName" class="input-medium search-query" placeholder="Find your city..." />
+     <a href="#" class="btn" id="findCity">Find it</a>
+     </div>
+
+         <div class="row">
+         <div class="col-lg-6 col-md-6 col-xs-6" style="padding: 0px 50px 0px 50px">
+            <p class="lead">Choose an Amount</p>
+            <input type="number" autofocus="autofocus" class="form-control"  id="placaeAmount" name="sessionNum" placeholder="Enter an amount" autocomplete="off">
+            </div>
+
+
+            </div>
+
+   <div id="map-canvas"></div>
+    </div>
+
+</template>
